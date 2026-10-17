@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI充值服务 — ChatGPT、Claude、Grok 会员一站开通" />
+  <title>AI充值服务</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="AI充值服务首页">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text">AI充值服务</span>
+    </a>
+    <nav class="nav" aria-label="充值类目">
+      <a href="products/chatgpt.html">ChatGPT</a>
+      <a href="products/claude.html">Claude</a>
+      <a href="products/grok.html">Grok</a>
+    </nav>
+    <button type="button" class="header-cta" data-wechat>微信号：aifuwu020</button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-brand">
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-wash"></div>
+        <div class="hero-band hero-band-a"></div>
+        <div class="hero-band hero-band-b"></div>
+        <div class="hero-speck"></div>
+      </div>
+      <div class="hero-content">
+        <p class="brand" id="hero-brand">AI充值服务</p>
+        <h1>一站开通全球主流 AI 与社媒会员</h1>
+        <p class="hero-lead">ChatGPT · Claude · Grok，每个类目独立介绍页，套餐排版参考各产品官网。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#products">查看充值类目</a>
+          <a class="btn btn-ghost" href="products/chatgpt.html">先看 ChatGPT</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="products" aria-labelledby="products-title">
+      <div class="section-head">
+        <h2 id="products-title">选择充值类目</h2>
+        <p>进入对应产品页查看官网风格套餐与权益说明。</p>
+      </div>
+      <div class="product-rail" role="list">
+        <a class="product-item" role="listitem" href="products/chatgpt.html">
+          <span class="product-icon chatgpt" aria-hidden="true"></span>
+          <span class="product-name">ChatGPT</span>
+          <span class="product-desc">Plus / Pro · 独立充值页</span>
+        </a>
+        <a class="product-item" role="listitem" href="products/claude.html">
+          <span class="product-icon claude" aria-hidden="true"></span>
+          <span class="product-name">Claude</span>
+          <span class="product-desc">Pro · 独立充值页</span>
+        </a>
+        <a class="product-item" role="listitem" href="products/grok.html">
+          <span class="product-icon grok" aria-hidden="true"></span>
+          <span class="product-name">Grok</span>
+          <span class="product-desc">Super Grok / Super Grok Heavy</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section flow" id="flow" aria-labelledby="flow-title">
+      <div class="section-head">
+        <h2 id="flow-title">如何选购</h2>
+        <p>先看类目介绍，再按套餐说明联系开通。</p>
+      </div>
+      <ol class="flow-steps">
+        <li>
+          <span class="step-index">01</span>
+          <h3>进入对应类目页</h3>
+          <p>查看该产品的套餐、权益对比与说明。</p>
+        </li>
+        <li>
+          <span class="step-index">02</span>
+          <h3>对照官网风格套餐</h3>
+          <p>确认档位、时长与权益差异。</p>
+        </li>
+        <li>
+          <span class="step-index">03</span>
+          <h3>联系客服开通</h3>
+          <p>确定套餐后由专人协助处理。</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span>AI充值服务</span>
+    </div>
+    <p>专注 ChatGPT、Claude、Grok 会员充值与续费。</p>
+    <p class="footer-wechat">微信号：<button type="button" class="wechat-link" data-wechat>aifuwu020</button>（点击查看微信码）</p>
+    <p class="footer-copy">© <span id="year"></span> AI充值服务 · 静态演示站点</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
